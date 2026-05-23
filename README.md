@@ -1,6 +1,6 @@
 # GEMjewelles 💎
 
-GEMjewelles is a modern jewelry website designed to showcase elegant jewelry collections with a clean and responsive user interface.
+GEMjewelles is a modern jewellery website designed to showcase elegant jewellery collections with a clean and responsive user interface.
 
 ## Features
 - Responsive design
