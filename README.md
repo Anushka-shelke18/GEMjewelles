@@ -12,7 +12,7 @@ GEMjewelles is a modern jewelry website designed to showcase elegant jewelry col
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript
+- PHP
 
 ## Project Status
 Currently improving and adding new features.
