@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gem Jewelles</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+background:#f5f0ea;
+}
+
+.container{
+max-width:850px;
+}
+
+.card img{
+height:150px;
+object-fit:cover;
+}
+
+.about{
+background:white;
+padding:15px;
+border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Gem Jewelles</a>
+</div>
+</nav>
+
+<!-- Header -->
+<div class="container text-center mt-3">
+<h1>Gem Jewelles</h1>
+<p>Elegant Jewellery for Every Occasion</p>
+</div>
+
+<!-- About Section -->
+<div class="container mt-3 about">
+<h5>About Gem Jewelles</h5>
+<p>
+Gem Jewelles offers premium quality jewellery including necklaces, rings,
+and earrings crafted with elegance and perfection.
+</p>
+</div>
+
+<!-- Products Section -->
+<div class="container mt-3">
+<h5 class="text-center">Our Products</h5>
+
+<div class="row text-center">
+
+<div class="col-md-4 mb-3">
+<div class="card">
+<img src="necklace.jpg" class="card-img-top">
+<div class="card-body">
+<h6>Diamond Necklace</h6>
+<p>Perfect for weddings and special occasions.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-3">
+<div class="card">
+<img src="ring.jpg" class="card-img-top">
+<div class="card-body">
+<h6>Diamond Ring</h6>
+<p>Elegant and stylish everyday wear.</p>
+</div>
+</div>
+</div>
+
+<div class="col-md-4 mb-3">
+<div class="card">
+<img src="earrings.jpg" class="card-img-top">
+<div class="card-body">
+<h6>Diamond Earrings</h6>
+<p>Add sparkle to your look.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Order Form -->
+<div class="container mt-4">
+<h5 class="text-center">Place Your Order</h5>
+
+<form action="order.php" method="POST" class="bg-white p-3 rounded">
+
+<div class="mb-2">
+<label>Name:</label>
+<input type="text" name="name" class="form-control" required>
+</div>
+
+<div class="mb-2">
+<label>Email:</label>
+<input type="email" name="email" class="form-control" required>
+</div>
+
+<div class="mb-2">
+<label>Select Product:</label>
+<select name="product" class="form-control">
+<option>Diamond Necklace</option>
+<option>Diamond Ring</option>
+<option>Diamond Earrings</option>
+</select>
+</div>
+
+<div class="mb-2">
+<label>Quantity:</label>
+<input type="number" name="quantity" class="form-control" required>
+</div>
+
+<div class="text-center">
+<button type="submit" class="btn btn-success">Order Now</button>
+</div>
+
+</form>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-2 mt-3">
+© 2026 Gem Jewelles | All Rights Reserved
+</footer>
+
+</body>
+</html>
